@@ -1,0 +1,33 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+  height: 100%;
+  width: 50%;
+  gap: 2rem;
+}
+
+.product-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-color {
+  color: rgb(120, 120, 120);
+}
+
+.product-price {
+  font-weight: bold;
+}
+
+.product-image {
+  border-radius: 12px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
